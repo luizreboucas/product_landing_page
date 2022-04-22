@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #fcd966;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    width: 100%;
+    display: flex;
+    padding: 1.5%;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url("img/fundo_lgto.jpg");
+    position: fixed;
+    top: 0;
+    left: 0;
+   
+}
+img{
+    width: 30%;
+    max-width: 205px;
+}
+
+nav{
+    display: flex;
+
+}
+img{
+    margin-top: 1%;
+}
+a{
+   text-decoration: none;
+   color: #1d7172;
+   font-weight: 700;
+   font-size: 120%;
+   display: flex;
+   width: 160px;
+   justify-content:space-evenly;
+   margin-left: 0;
+
+}
+form{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.item{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+#submit{
+    background-color: #1d7172;
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+p{
+    color: #1d7172;
+    margin-bottom: 20px;
+}
+#nav-link{
+    font-size: 18px;
+}
+.iframe{
+    width: 100%;
+    margin: 70px;
+    display: flex;
+    justify-content: center;
+   
+}
+#him p{
+    font-size: 40px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-top: 30px;
+}
+
+.comoEFeito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px ;
+    background-color: #1d7172;
+    color: aliceblue;
+}
+#sabores{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+li{
+    padding: 10px;
+    color: #1d7172;
+
+}
+h2{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1d7172;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+footer{
+    background-color: #1d7172;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+footer p {
+    color: aliceblue;
+}
+@media (max-width: 620px){
+    header{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        align-items: center;
+        
+    }
+    img{
+        width: 30%;
+    }
+}
